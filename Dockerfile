@@ -80,7 +80,7 @@ RUN set -x \
 	&& cpanm Archive::Tar IPC::ShareLite Template DBI DBIx::Simple Params::Validate Error \
 	&& cpanm Net::DNS SQL::Abstract Hash::Merge Attribute::Handlers Switch \
 	&& cpanm URL::Encode::XS Compress::Zlib RedisDB JSON::XS Search::QueryParser \
-	&& cpanm Net::Twitter Imager::Filter::Sepia Image::ExifTool Statistics::Lite \
+	&& cpanm Net::Twitter Imager::Filter::Sepia Image::ExifTool Statistics::Lite Slack::Notify \
 	&& cpanm http://search.cpan.org/CPAN/authors/id/M/MI/MIYAGAWA/HTML-Selector-XPath-0.08.tar.gz \
 	&& rm -rf /root/.cpanm
 
